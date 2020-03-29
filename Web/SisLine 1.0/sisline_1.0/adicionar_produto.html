@@ -1,0 +1,43 @@
+﻿<html>
+	<head>
+		<link rel='stylesheet' type='text/css' href='css/style.css'>
+		<title>:: Adicionar Produto ::</title>
+	</head>
+	<body>
+		<form method="POST" action="adicionar_produto.php">
+			<h2>.: Cadastrar Produto</h2><br /><br />
+			<hr><br />
+			
+			<table>
+				<tr>
+					<td colspan="2" class="tdopcoes"><a href="exibir_produtos.php" title="Cancelar"><img src="imagens/btn/cancelar.png" alt="Cancelar"></a>
+					&nbsp
+					<input type="image" src="imagens/btn/salvar.png" name="adicionar" value="Adicionar"></td>
+				</tr>
+				<tr>
+					<td>Código: </td><td class="tdvazio"><input type="text" name="codigo_produto" class="tdvazio"></td><td rowspan='1'>Descrição: </td>
+				</tr>
+				<tr>
+					<td>Produto: </td><td class="tdvazio"><input type="text" name="nome" class="tdvazio"></td><td rowspan="6" class="tdvazio"><textarea name="observacao" rows="9" class="tdvazio"></textarea></td>
+				</tr>
+				<tr>
+					<td>Categoria: </td><td class="tdvazio"><input type="text" name="categoria" class="tdvazio"></td>
+				</tr>
+				<tr>
+					<td>Qtd Estoque: </td><td class="tdvazio"><input type="text" name="quantidade" class="tdvazio"></td>
+				</tr>
+				<tr>
+					<td>Fornecedor: </td><td class="tdvazio"><input type="text" name="fornecedor" class="tdvazio"></td>
+				</tr>
+				<tr>
+					<td>Preço Custo: </td><td class="tdvazio"><input type="text" name="preco_custo" class="tdvazio"></td>
+				</tr>
+				<tr>
+					<td>Preço Venda: </td><td class="tdvazio"><input type="text" name="preco_venda" class="tdvazio"></td>
+				</tr>
+			</table><br />
+		
+		</form>
+
+	</body>
+</html>

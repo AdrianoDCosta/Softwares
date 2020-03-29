@@ -1,0 +1,8 @@
+BD:
+	Usuario: root
+	Senha:
+
+SisLine:
+
+	Usuário: Administrador
+	Senha: itedoc

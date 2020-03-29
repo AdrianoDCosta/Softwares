@@ -1,0 +1,81 @@
+* {
+	margin: 0 auto;
+}
+html, body {
+	background-position: center top;  /* top para fica no topo da janela do IE */
+	background-color: #FFFFFF;
+	background-repeat: no-repeat;
+}
+img{
+	border: none;
+}
+#centralizar{
+	width: 50%; /* mantém uma distância entre o site e os lados da janela */
+	max-width: 900px; /* limita o crescimento do layout a até 798px */
+	min-width: 800px; /* limita a redução do layout em até 600px */
+}
+#principal{
+	margin: 160px 0 0 100px;
+	width: 550px;
+	height: 300px;
+	border: 3px solid #550000;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+#img{
+	float: left;
+}
+fieldset{
+	margin: 90px 0 0 200px;
+	width: 300px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+.bem-vindo{
+	margin: 0 0 0 15px;
+	font: normal 30px Roboto;/* Fonte Roboto - Utilizando o google fonts */
+	color: #990000;
+}
+.identifique{
+	margin: 0 0 0 15px;
+	font: normal 12px Roboto;/* Fonte Roboto - Utilizando o google fonts */
+}
+.formulario{
+	margin: 20px 0 0 15px;
+	width: 290px;
+}
+label{
+	font: normal 14px Roboto;/* Fonte Roboto - Utilizando o google fonts */
+}
+.input_login{
+	margin: 0 0 10px 0;
+	width: 150px;
+	border: none;
+}
+.input_senha{
+	margin: 0 0 10px 8px;
+	width: 150px;
+	border: none;
+}
+.btn_entrar{
+	margin: 0 0 0 132px;
+	width: 73px;
+	font: normal 13px Roboto;/* Fonte Roboto - Utilizando o google fonts */
+}
+h3.validar_erro{
+	margin: -100px 0 0 0;
+	text-align: center;
+	font: normal 15px Roboto;/* Fonte Roboto - Utilizando o google fonts */
+	color: #ff0000;
+}
+h3.validar_ok {
+	margin: -7% 0 0 55%;
+	text-align: left;
+	font: normal 15px Roboto;/* Fonte Roboto - Utilizando o google fonts */
+	color: #005500;
+}
+.img_cadeado{
+	float: right;
+}

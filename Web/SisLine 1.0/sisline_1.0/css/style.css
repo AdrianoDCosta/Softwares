@@ -1,0 +1,168 @@
+* {
+	margin: 0 auto;
+}
+html, body {
+	background-position: center top;  /* top para fica no topo da janela do IE */
+	background-color: #FFFFFF;
+	background-repeat: no-repeat;
+	height:100%;
+}
+img{
+	border: none;
+}
+#centralizar{
+	width: 50%; /* mantém uma distância entre o site e os lados da janela */
+	max-width: 900px; /* limita o crescimento do layout a até 798px */
+	min-width: 800px; /* limita a redução do layout em até 600px */
+}
+
+/* HEADER */
+#header{
+	margin: 0 auto;
+}
+#logotipo{
+	margin: 0;
+	padding-bottom: 1%;
+}
+.faixa{
+	margin-top: 15px;
+	font: normal 15px Garamond;
+	background: #C0C0C0;
+}
+a.sair{
+	color: #000000;
+	text-decoration: none;
+}
+a:hover.sair{
+	color: #000000;
+	text-decoration: underline;
+}
+a:visited.sair{
+	color: #000000;
+	text-decoration: none;
+}
+
+/* MENU */
+
+#menu {
+	margin-top: 10px;
+	width: 75px;
+	float: right;
+	font: normal 14px Garamond;
+	text-align: center;
+}
+a.menu{
+	color: #000000;
+	text-decoration: none;
+}
+a:hover.menu{
+	color: #000000;
+	text-decoration: underline;
+}
+a:visited.menu{
+	color: #000000;
+	text-decoration: none;
+}
+/* FIM - MENU */
+/* FIM - HEADER */
+
+
+/* CONTENT */
+#content{
+	margin: 2% 0 0 0;
+	width: 100%;
+	height: 70%;
+}
+iframe{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	border: none;
+}
+.pagInicial{
+	font: normal 30px Garamond;
+	text-align: center;
+}
+
+/* Títulos Páginas */
+
+h2{
+	width: 300px;
+	float: left;
+	font: bold 22px Garamond;
+}
+hr{
+	border-top: dotted 1px #990000;
+}
+/* FIM - Títulos Páginas */
+
+/* Pesquisar */
+
+.pesquisar{
+	margin: 0 0 3px 210px;
+	width: 240px;
+	height: 25px;
+	border: none;
+	color: #696969;
+	background: #C0C0C0;
+}
+.img_pesquisar{
+	margin: 0 0 -7px 0;
+}
+/* FIM - Pesquisar */
+
+/* Páginas Exibir */
+
+table{
+	width: 780px;
+	border: 1px solid #990000;
+	background: #ffffff;
+}
+td{
+	width: 100px;
+	color: #ffffff;
+	background: #990000;
+}
+.tdvazio{
+	width: 320px;
+	color: #000000;
+	border: 1px solid #990000;
+	background: #ffffff;
+}
+.tdopcoes{
+	width: 770px;
+	color: #000000;
+	background: #ffffff;
+}
+
+/* FIM - Páginas Exibir */
+
+/* FIM CONTENT */
+
+/* RODAPÉ */
+#footer{
+	width: 100%;
+	text-align: center;
+}
+.footer-linha{
+	margin-top: 2%;
+	width: 100%;
+	border-top: 1px solid #000000;
+}
+.footer-texto {
+	margin: 1% 0 0 0;
+	text-align: right;
+	font: normal 12px Arial;
+	color: #000000;
+}
+img.desenvolvedor{
+	margin: -2% 75% 0 0;
+}
+a:visited.desenvolvedor{
+	text-decoration: none;
+}
+a:hover.desenvolvedor {
+	text-decoration: none;
+}
+/* FIM RODAPÉ */

@@ -1,0 +1,52 @@
+﻿<html>
+	<head>
+		<link rel='stylesheet' type='text/css' href='css/style.css'>
+		<title>:: Adicionar Fornecedor ::</title>
+	</head>
+	<body>
+		<form method="POST" action="adicionar_fornecedor.php">
+			<h2>.: Cadastrar Fornecedor</h2><br /><br />
+			<hr><br />
+			
+			<table>
+				<tr>
+					<td colspan="3" class="tdopcoes"><a href="exibir_fornecedores.php" title="Cancelar"><img src="imagens/btn/cancelar.png" alt="Cancelar"></a>
+					&nbsp
+					<input type="image" src="imagens/btn/salvar.png" name="adicionar" value="Adicionar"></td>
+				</tr>
+				<tr>
+					<td>Empresa: </td><td class='tdvazio'><input type="text" name="empresa" class="tdvazio"></td><td rowspan="1">Observação: </td>
+				</tr>
+				<tr>
+					<td>Representante: </td><td class='tdvazio'><input type="text" name="contato" class="tdvazio"></td><td rowspan="9" class="tdvazio"><textarea name="observacao" rows="14" class="tdvazio"></textarea></td>
+				</tr>
+				<tr>
+					<td>CNPJ / CPF: </td><td class='tdvazio'><input type="text" name="cnpj_cpf" class="tdvazio"></td>
+				</tr>
+				<tr>
+					<td>IE: </td><td class='tdvazio'><input type="text" name="ie" class="tdvazio"></td>
+				</tr>
+				<tr>
+					<td>Endereço: </td><td class='tdvazio'><input type="text" name="endereco" class="tdvazio"></td>
+				</tr>
+				<tr>
+					<td>Cidade: </td><td class='tdvazio'><input type="text" name="cidade" class="tdvazio"></td>
+				</tr>
+				<tr>
+					<td>Estado: </td><td class='tdvazio'><input type="text" name="estado" class="tdvazio"></td>
+				</tr>
+				<tr>
+					<td>Cep: </td><td class='tdvazio'><input type="text" name="cep" class="tdvazio"></td>
+				</tr>
+				<tr>
+					<td>Telefone: </td><td class='tdvazio'><input type="text" name="telefone" class="tdvazio"></td>
+				</tr>
+				<tr>
+					<td>Email: </td><td class='tdvazio'><input type="text" name="email" class="tdvazio"></td>
+				</tr>
+			</table><br />
+			
+		</form>
+		
+	</body>
+</html>

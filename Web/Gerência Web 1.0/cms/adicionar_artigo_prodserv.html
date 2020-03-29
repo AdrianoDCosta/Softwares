@@ -1,0 +1,35 @@
+<html>
+	<head>
+	
+		<!-- Chamando CKEditor --->
+		<script type="text/javascript" src="ckeditor/ckeditor.js"></script>
+		
+		<script type="text/javascript">
+			window.onload = function() {
+				CKEDITOR.replace ( 'add_prodserv', {enterMode: Number (2) } );
+			};
+		</script>
+		
+		<link rel="stylesheet" type="text/css" href="pagformularios.css">
+		<title>: : Adicionar Artigo : :</title>
+	</head>
+	<body>
+		<h3>Adicionar Artigo</h3>
+		<form method="POST" action="adicionar_artigo_prodserv.php">
+		
+		<table class="formsadm">
+			<tr>
+				<td>
+					<textarea id="add_prodserv" name="add_prodserv"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="submit" name="adicionar" value="Adicionar">
+				</td>
+			</tr>
+		</table>
+		
+	</form>
+	</body>
+</html>
